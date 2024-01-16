@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(timepic.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#timer{
+    font-size: 80px;
+}
+
+.buttons{
+    display: flex;
+}
+button{
+    font-size: 30px;
+    margin: 0 10px;
+    padding: 0;
+    position: relative;
+}
+button:active{
+    top: 2px;
+}
+button i{
+    padding: 10px;
+    color: white;
+}
+
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: brown;
+}
